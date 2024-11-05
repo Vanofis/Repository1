@@ -20,3 +20,8 @@ double CalculateB(double x, double y)
 
 	return squareRoot + cubicRoot + pow(M_E, 5 * y);
 }
+
+double CalculateC(double x, double y, double z)
+{
+	return sqrt(x * x + y * y + z * z);
+}
